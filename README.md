@@ -6,21 +6,21 @@
 ## Installation
 
 ```bash
-npm install AvatarUpload --save
+npm install react-avatar --save
 ```
 
 ## Usage
 
 ```javascript
 import React from 'react'
-import UpLoad from 'AvatarUpload'
+import ReactAvatar from 'react-avatar'
 
 class Demo extends React.Component {
   getImg = (img) =>{
     console.log(img);
   };
   render() {
-	  return (<UpLoad getImg={getImg} />)
+	  return (<ReactAvatar getImg={getImg} />)
    }
 }
 ```

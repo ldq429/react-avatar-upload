@@ -1,5 +1,5 @@
 {
-  "name": "singleupload",
+  "name": "react-avatar",
   "version": "1.0.0",
   "description": "单张图片上传 base64",
   "main": "lib/index.js",
@@ -10,12 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
     "build": "webpack --mode production",
+    "compile": "npx babel src --out-dir lib",
     "deploy": "gh-pages -d example/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
   "author": "lu",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
