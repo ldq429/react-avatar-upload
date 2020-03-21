@@ -6,22 +6,22 @@
 ## Installation
 
 ```bash
-npm install react-avatar --save
+npm install react-avatar-upload --save
 ```
 
 ## Usage
 
 ```javascript
-import React from 'react'
-import ReactAvatar from 'react-avatar'
+import React from 'react';
+import Avatar from 'react-avatar-upload';
 
 class Demo extends React.Component {
-  getImg = (img) =>{
+  getImg = (img) => {
     console.log(img);
   };
   render() {
-	  return (<ReactAvatar getImg={getImg} />)
-   }
+    return (<Avatar getImg={getImg} />)
+  }
 }
 ```
 
@@ -30,7 +30,7 @@ class Demo extends React.Component {
 
 | 属性 | 说明 | 类型 | 默认值
 | --- | --- | --- | -- |
-| getImg | function | 方法 | 请填写该方法获取base64的img
+| getImg | function | 方法 | 该方法获取base64的img
 
 
 ## License

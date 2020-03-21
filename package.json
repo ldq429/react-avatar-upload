@@ -2,6 +2,7 @@
   "name": "react-avatar",
   "version": "1.0.0",
   "description": "单张图片上传 base64",
+  "repository": "https://github.com/ldq429/AvatarUpload",
   "main": "lib/index.js",
   "files": [
     "dist"
