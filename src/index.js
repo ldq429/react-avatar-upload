@@ -2,10 +2,10 @@
  * @Author: DaQing Lu
  * @Date: 2020-03-15 19:03:44
  * @LastEditors: DaQing Lu
- * @LastEditTime: 2020-03-17 18:42:27
+ * @LastEditTime: 2020-03-22 10:26:21
  * @Description: file content
  */
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./css/_myupload.css";
 
 class Upload extends Component {
@@ -57,22 +57,28 @@ class Upload extends Component {
   }
 
   render() {
-    const {url, loading} = this.state;
+    const { url, loading } = this.state;
     return (
       <>
         {
           url
             ?
             <div onClick={this.handleClick} className='thumbnail'>
-              <img src={url} alt="图片加载失败"/>
+              <img src={url} alt="图片加载失败" />
             </div>
             :
             <div className='upload_box' onClick={this.handleClick}>
-              {loading ? <p className='loading'>上传中...</p> : "+"}
+              {
+                loading
+                  ?
+                  <p className='loading'>上传中...</p>
+                  :
+                  <div className='add'>+</div>
+              }
             </div>
         }
         <input
-          style={{width: 0, height: 0}}
+          style={{ width: 0, height: 0 }}
           onChange={this.handleChange}
           type="file"
           id="avatar"
