@@ -2,10 +2,11 @@
  * @Author: DaQing Lu
  * @Date: 2020-03-15 19:03:44
  * @LastEditors: DaQing Lu
- * @LastEditTime: 2020-03-22 10:26:21
+ * @LastEditTime: 2020-03-22 18:06:49
  * @Description: file content
  */
 import React, { Component } from "react";
+import PropTypes from 'prop-types';
 import "./css/_myupload.css";
 
 class Upload extends Component {
@@ -88,6 +89,9 @@ class Upload extends Component {
       </>
     );
   }
+}
+Upload.proptypes = {
+  getImg: PropTypes.func.isRequired
 }
 
 export default Upload;
