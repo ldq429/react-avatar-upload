@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dbd72254-0759-4ba7-a005-6c356a1a8632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/dist/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/_myupload.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -47,11 +49,17 @@
       <workItem from="1584718108644" duration="7000" />
       <workItem from="1584757080027" duration="1995000" />
       <workItem from="1585045868773" duration="1371000" />
-      <workItem from="1585048081405" duration="276000" />
+      <workItem from="1585048081405" duration="1240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585049708500">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="395" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1585049708500" />
   </component>
 </project>

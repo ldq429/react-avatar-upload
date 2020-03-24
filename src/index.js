@@ -5,9 +5,10 @@
  * @LastEditTime: 2020-03-22 18:06:49
  * @Description: file content
  */
-import React, { Component } from "react";
-import PropTypes from 'prop-types';
-import "./index.css";
+import React, {Component} from "react";
+import PropTypes from "prop-types";
+// import "./index.css";
+
 
 class Upload extends Component {
   constructor(props) {
@@ -58,28 +59,61 @@ class Upload extends Component {
   }
 
   render() {
-    const { url, loading } = this.state;
+    const {url, loading} = this.state;
     return (
       <>
         {
           url
             ?
-            <div onClick={this.handleClick} className='thumbnail'>
-              <img src={url} alt="图片加载失败" />
+            <div onClick={this.handleClick} className='thumbnail' style={{
+              width: "100px",
+              height: "100px",
+              cursor: "pointer"
+            }}>
+              <img src={url} alt="图片加载失败" style={{
+                width: "100%",
+                height: "100%"
+              }}/>
             </div>
             :
-            <div className='upload_box' onClick={this.handleClick}>
+            <div className='upload_box' onClick={this.handleClick} style={{
+              padding: 0,
+              margin: 0,
+              position: "relative",
+              border: "1px dashed #ccc",
+              width: "100px",
+              height: "100px",
+              cursor: "pointer"
+            }}>
               {
                 loading
                   ?
-                  <p className='loading'>上传中...</p>
+                  <p className='loading' style={{
+                    color: "#ccc",
+                    lineHeight: "80px",
+                    fontSize: "12px",
+                    textAlign: "center"
+                  }}>上传中...</p>
                   :
-                  <div className='add'>+</div>
+                  <div className='add' style={{
+                    padding: 0,
+                    margin: 0,
+                    width: "70px",
+                    height: "70px",
+                    lineHeight: "60px",
+                    textAlign: "center",
+                    color: "#ccc",
+                    fontSize: "60px",
+                    position: "absolute",
+                    left: "50%",
+                    top: "50%",
+                    transform: "translate(-50%, -50%)"
+                  }}>+</div>
               }
             </div>
         }
         <input
-          style={{ width: 0, height: 0 }}
+          style={{width: 0, height: 0}}
           onChange={this.handleChange}
           type="file"
           id="avatar"
@@ -90,8 +124,9 @@ class Upload extends Component {
     );
   }
 }
+
 Upload.proptypes = {
   getImg: PropTypes.func.isRequired
-}
+};
 
 export default Upload;
