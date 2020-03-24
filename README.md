@@ -11,20 +11,15 @@
 
 
 ![](https://img.shields.io/badge/npm-6.14.2-orange.svg) 
-![](https://img.shields.io/github/issues/ldq429/
-react-avatar-upload.svg) 
-![](https://img.shields.io/github/forks/ldq429/
-react-avatar-upload.svg) 
-![](https://img.shields.io/github/stars/ldq429/
-react-avatar-upload.svg) 
-![](https://img.shields.io/github/license/ldq429/
-react-avatar-upload.svg)
+![](https://img.shields.io/github/issues/ldq429/react-avatar-upload.svg) 
+![](https://img.shields.io/github/forks/ldq429/react-avatar-upload.svg) 
+![](https://img.shields.io/github/stars/ldq429/react-avatar-upload.svg) 
+![](https://img.shields.io/github/license/ldq429/react-avatar-upload.svg)
 
 
 
 
-基于 react 的 头像上传, [在线 demo](https://ldq429.github.io/
-react-avatar-upload/)
+基于 react 的 头像上传, [在线 demo](https://ldq429.github.io/react-avatar-upload/)
 
 ## Installation
 
@@ -49,6 +44,7 @@ class Demo extends React.Component {
 ```
 
 ## API
+
 
 | 属性 | 说明 | 类型 | 默认值
 | --- | --- | --- | -- |
