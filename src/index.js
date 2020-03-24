@@ -7,7 +7,7 @@
  */
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import "./css/_myupload.css";
+import "./index.css";
 
 class Upload extends Component {
   constructor(props) {
