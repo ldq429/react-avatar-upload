@@ -7,11 +7,18 @@
  -->
 # base64的图片上传 适用于头像上传
 上传base64的单张图片 可用来做 头像上传
+
+
+
 ![](https://img.shields.io/badge/npm-6.14.2-orange.svg) 
 ![](https://img.shields.io/github/issues/ldq429/AvatarUpload.svg) 
 ![](https://img.shields.io/github/forks/ldq429/AvatarUpload.svg) 
 ![](https://img.shields.io/github/stars/ldq429/AvatarUpload.svg) 
 ![](https://img.shields.io/github/license/ldq429/AvatarUpload.svg)
+
+
+
+
 基于 react 的 头像上传, [在线 demo](https://ldq429.github.io/AvatarUpload/)
 
 ## Installation
